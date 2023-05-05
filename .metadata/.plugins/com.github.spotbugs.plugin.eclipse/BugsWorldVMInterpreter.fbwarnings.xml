@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.1" sequence="1" timestamp="1639643739276" analysisTimestamp="1639643735456" release="">
+  <Project projectName="BugsWorldVMInterpreter">
+    <Jar>/Users/abdiace/Desktop/CSE2231 workspace/BugsWorldVMInterpreter/bin/BugsWorldVMInterpreter.class</Jar>
+    <Jar>/Users/abdiace/Desktop/CSE2231 workspace/BugsWorldVMInterpreter/bin/BugsWorldVMInterpreter$CellState.class</Jar>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/CSE2231 workspace/BugsWorldVMInterpreter/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.1.v20201027-0507/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/BugsWorldVMInterpreter/test</SrcDir>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/BugsWorldVMInterpreter/src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 16 Dec 2021 03:35:35 -0500" total_classes="2" referenced_classes="41" total_bugs="0" total_size="150" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="5.89" clock_seconds="3.83" peak_mbytes="1019.54" alloc_mbytes="2048.00" gc_seconds="0.27">
+    <PackageStats package="" total_bugs="0" total_types="2" total_size="150">
+      <ClassStats class="BugsWorldVMInterpreter" sourceFile="BugsWorldVMInterpreter.java" interface="false" size="137" bugs="0"/>
+      <ClassStats class="BugsWorldVMInterpreter$CellState" sourceFile="BugsWorldVMInterpreter.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1067" invocations="2" avgMicrosecondsPerInvocation="533882" maxMicrosecondsPerInvocation="1041840" standardDeviationMicrosecondsPerInvocation="507958"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="842" invocations="487" avgMicrosecondsPerInvocation="1730" maxMicrosecondsPerInvocation="112960" standardDeviationMicrosecondsPerInvocation="9031"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="355" invocations="491" avgMicrosecondsPerInvocation="724" maxMicrosecondsPerInvocation="40044" standardDeviationMicrosecondsPerInvocation="2916"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="317" invocations="41" avgMicrosecondsPerInvocation="7754" maxMicrosecondsPerInvocation="76959" standardDeviationMicrosecondsPerInvocation="16824"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="217" invocations="41" avgMicrosecondsPerInvocation="5306" maxMicrosecondsPerInvocation="85683" standardDeviationMicrosecondsPerInvocation="14432"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1639643739276" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

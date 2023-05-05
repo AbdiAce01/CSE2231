@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="1" timestamp="1629839503092" analysisTimestamp="1629839500561" release="">
+  <Project projectName="ProjectTemplate">
+    <Jar>/Users/abdiace/Desktop/CSE2231 workspace/ProjectTemplate/bin</Jar>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/CSE2231 workspace/ProjectTemplate/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.1.v20201027-0507/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/ProjectTemplate/test</SrcDir>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/ProjectTemplate/src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 24 Aug 2021 17:11:40 -0400" total_classes="0" referenced_classes="0" total_bugs="0" total_size="0" num_packages="0" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="7.51" clock_seconds="2.54" peak_mbytes="405.54" alloc_mbytes="2048.00" gc_seconds="0.14">
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1611" invocations="2" avgMicrosecondsPerInvocation="805584" maxMicrosecondsPerInvocation="1073442" standardDeviationMicrosecondsPerInvocation="267858"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="641" invocations="153" avgMicrosecondsPerInvocation="4194" maxMicrosecondsPerInvocation="108742" standardDeviationMicrosecondsPerInvocation="11587"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1629839503088" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

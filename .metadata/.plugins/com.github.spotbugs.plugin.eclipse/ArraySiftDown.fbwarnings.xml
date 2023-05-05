@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.0" sequence="7" timestamp="1637017215524" analysisTimestamp="1637017214489" release="">
+  <Project projectName="ArraySiftDown">
+    <Jar>/Users/abdiace/Desktop/CSE2231 workspace/ArraySiftDown/bin/ArraySiftDownMain.class</Jar>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/CSE2231 workspace/ArraySiftDown/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.1.v20201027-0507/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/ArraySiftDown/test</SrcDir>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/ArraySiftDown/src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="2" last="2" removedByChange="true">
+    <Class classname="ArraySiftDownMain">
+      <SourceLine classname="ArraySiftDownMain" sourcefile="ArraySiftDownMain.java" sourcepath="ArraySiftDownMain.java"/>
+    </Class>
+    <Method classname="ArraySiftDownMain" name="siftDown" signature="([III)V" isStatic="true">
+      <SourceLine classname="ArraySiftDownMain" start="173" end="208" startBytecode="0" endBytecode="120" sourcefile="ArraySiftDownMain.java" sourcepath="ArraySiftDownMain.java"/>
+    </Method>
+    <LocalVariable name="left" register="3" pc="166" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ArraySiftDownMain" start="194" end="194" startBytecode="165" endBytecode="165" sourcefile="ArraySiftDownMain.java" sourcepath="ArraySiftDownMain.java"/>
+    <SourceLine classname="ArraySiftDownMain" start="194" end="194" startBytecode="165" endBytecode="165" sourcefile="ArraySiftDownMain.java" sourcepath="ArraySiftDownMain.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="left"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="2" last="2" removedByChange="true">
+    <Class classname="ArraySiftDownMain">
+      <SourceLine classname="ArraySiftDownMain" sourcefile="ArraySiftDownMain.java" sourcepath="ArraySiftDownMain.java"/>
+    </Class>
+    <Method classname="ArraySiftDownMain" name="siftDown" signature="([III)V" isStatic="true">
+      <SourceLine classname="ArraySiftDownMain" start="173" end="208" startBytecode="0" endBytecode="120" sourcefile="ArraySiftDownMain.java" sourcepath="ArraySiftDownMain.java"/>
+    </Method>
+    <LocalVariable name="right" register="4" pc="194" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ArraySiftDownMain" start="199" end="199" startBytecode="192" endBytecode="192" sourcefile="ArraySiftDownMain.java" sourcepath="ArraySiftDownMain.java"/>
+    <SourceLine classname="ArraySiftDownMain" start="199" end="199" startBytecode="192" endBytecode="192" sourcefile="ArraySiftDownMain.java" sourcepath="ArraySiftDownMain.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="right"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="SA_LOCAL_SELF_COMPARISON" priority="1" rank="1" abbrev="SA" category="CORRECTNESS" first="5" last="5" removedByChange="true">
+    <Class classname="ArraySiftDownMain">
+      <SourceLine classname="ArraySiftDownMain" sourcefile="ArraySiftDownMain.java" sourcepath="ArraySiftDownMain.java"/>
+    </Class>
+    <Method classname="ArraySiftDownMain" name="siftDown" signature="([III)V" isStatic="true">
+      <SourceLine classname="ArraySiftDownMain" start="173" end="206" startBytecode="0" endBytecode="118" sourcefile="ArraySiftDownMain.java" sourcepath="ArraySiftDownMain.java"/>
+    </Method>
+    <LocalVariable name="top" register="1" pc="195" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ArraySiftDownMain" start="200" end="200" startBytecode="196" endBytecode="196" sourcefile="ArraySiftDownMain.java" sourcepath="ArraySiftDownMain.java"/>
+  </BugInstance>
+  <BugInstance type="SA_LOCAL_SELF_COMPARISON" priority="1" rank="1" abbrev="SA" category="CORRECTNESS" first="5" last="5" removedByChange="true">
+    <Class classname="ArraySiftDownMain">
+      <SourceLine classname="ArraySiftDownMain" sourcefile="ArraySiftDownMain.java" sourcepath="ArraySiftDownMain.java"/>
+    </Class>
+    <Method classname="ArraySiftDownMain" name="siftDown" signature="([III)V" isStatic="true">
+      <SourceLine classname="ArraySiftDownMain" start="173" end="206" startBytecode="0" endBytecode="411" sourcefile="ArraySiftDownMain.java" sourcepath="ArraySiftDownMain.java"/>
+    </Method>
+    <LocalVariable name="top" register="1" pc="196" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ArraySiftDownMain" start="200" end="200" startBytecode="196" endBytecode="196" sourcefile="ArraySiftDownMain.java" sourcepath="ArraySiftDownMain.java"/>
+    <SourceLine classname="ArraySiftDownMain" start="200" end="200" startBytecode="196" endBytecode="196" sourcefile="ArraySiftDownMain.java" sourcepath="ArraySiftDownMain.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 15 Nov 2021 18:00:14 -0500" total_classes="1" referenced_classes="24" total_bugs="0" total_size="87" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="2.42" clock_seconds="1.04" peak_mbytes="847.90" alloc_mbytes="2048.00" gc_seconds="0.07">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="87">
+      <ClassStats class="ArraySiftDownMain" sourceFile="ArraySiftDownMain.java" interface="false" size="87" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="314" invocations="404" avgMicrosecondsPerInvocation="777" maxMicrosecondsPerInvocation="48582" standardDeviationMicrosecondsPerInvocation="3364"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="240" invocations="405" avgMicrosecondsPerInvocation="594" maxMicrosecondsPerInvocation="100681" standardDeviationMicrosecondsPerInvocation="5107"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="154" invocations="2" avgMicrosecondsPerInvocation="77140" maxMicrosecondsPerInvocation="140773" standardDeviationMicrosecondsPerInvocation="63633"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="45" invocations="369" avgMicrosecondsPerInvocation="124" maxMicrosecondsPerInvocation="12967" standardDeviationMicrosecondsPerInvocation="776"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="38" invocations="24" avgMicrosecondsPerInvocation="1591" maxMicrosecondsPerInvocation="13567" standardDeviationMicrosecondsPerInvocation="3297"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1636922863702" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1636922863702" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1636924983956" release="" codeSize="88" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1636930856006" release="" codeSize="86" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1636931183886" release="" codeSize="86" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1636933328968" release="" codeSize="86" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1636953251715" release="" codeSize="87" numClasses="1"/>
+  </History>
+</BugCollection>

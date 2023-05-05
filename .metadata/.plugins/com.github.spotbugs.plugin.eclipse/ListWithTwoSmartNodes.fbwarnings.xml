@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.0" sequence="3" timestamp="1639523530802" analysisTimestamp="1639523529336" release="">
+  <Project projectName="ListWithTwoSmartNodes">
+    <Jar>/Users/abdiace/Desktop/CSE2231 workspace/ListWithTwoSmartNodes/bin/List2aTest.class</Jar>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/CSE2231 workspace/ListWithTwoSmartNodes/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.1.v20201027-0507/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/ListWithTwoSmartNodes/test</SrcDir>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/ListWithTwoSmartNodes/src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 14 Dec 2021 18:12:08 -0500" total_classes="1" referenced_classes="21" total_bugs="0" total_size="7" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="2.12" clock_seconds="1.48" peak_mbytes="965.98" alloc_mbytes="2048.00" gc_seconds="0.10">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="7">
+      <ClassStats class="List2aTest" sourceFile="List2aTest.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="629" invocations="2" avgMicrosecondsPerInvocation="314616" maxMicrosecondsPerInvocation="596119" standardDeviationMicrosecondsPerInvocation="281502"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="396" invocations="368" avgMicrosecondsPerInvocation="1077" maxMicrosecondsPerInvocation="96837" standardDeviationMicrosecondsPerInvocation="5609"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="258" invocations="371" avgMicrosecondsPerInvocation="696" maxMicrosecondsPerInvocation="108331" standardDeviationMicrosecondsPerInvocation="5653"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1637017215483" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1637017215483" release="" codeSize="123" numClasses="3"/>
+    <AppVersion sequence="2" timestamp="1637038186406" release="" codeSize="123" numClasses="3"/>
+  </History>
+</BugCollection>

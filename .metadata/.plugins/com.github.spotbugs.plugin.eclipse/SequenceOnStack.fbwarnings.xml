@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.0" sequence="14" timestamp="1631207575936" analysisTimestamp="1631207574635" release="">
+  <Project projectName="SequenceOnStack">
+    <Jar>/Users/abdiace/Desktop/CSE2231 workspace/SequenceOnStack/bin/SequenceTest.class</Jar>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/CSE2231 workspace/SequenceOnStack/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.1.v20201027-0507/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/SequenceOnStack/test</SrcDir>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/SequenceOnStack/src</SrcDir>
+  </Project>
+  <BugInstance type="EC_UNRELATED_CLASS_AND_INTERFACE" priority="2" rank="6" abbrev="EC" category="CORRECTNESS" first="12" last="12" removedByChange="true">
+    <Class classname="SequenceTest">
+      <SourceLine classname="SequenceTest" sourcefile="SequenceTest.java" sourcepath="SequenceTest.java"/>
+    </Class>
+    <Method classname="SequenceTest" name="testAddEmpty" signature="()V" isStatic="false">
+      <SourceLine classname="SequenceTest" start="89" end="94" startBytecode="0" endBytecode="24" sourcefile="SequenceTest.java" sourcepath="SequenceTest.java"/>
+    </Method>
+    <Type descriptor="Lcomponents/sequence/Sequence;" role="TYPE_FOUND" typeParameters="&lt;java.lang.String&gt;">
+      <SourceLine classname="components.sequence.Sequence"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="134" end="3785" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <LocalVariable name="q" register="1" pc="39" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <String value="&lt;green&gt;" role="STRING_CONSTANT"/>
+    <Method classname="java.lang.String" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.String" start="1022" end="1031" startBytecode="0" endBytecode="153" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <Method classname="org.junit.Assert" name="assertEquals" signature="(Ljava/lang/Object;Ljava/lang/Object;)V" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="org.junit.Assert" start="146" end="147" startBytecode="0" endBytecode="62" sourcefile="Assert.java" sourcepath="org/junit/Assert.java"/>
+    </Method>
+    <SourceLine classname="SequenceTest" start="93" end="93" startBytecode="40" endBytecode="40" sourcefile="SequenceTest.java" sourcepath="SequenceTest.java"/>
+    <SourceLine classname="SequenceTest" start="93" end="93" startBytecode="40" endBytecode="40" sourcefile="SequenceTest.java" sourcepath="SequenceTest.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_CLASS_AND_INTERFACE" priority="2" rank="6" abbrev="EC" category="CORRECTNESS" first="10" last="10" removedByChange="true">
+    <Class classname="SequenceTest">
+      <SourceLine classname="SequenceTest" sourcefile="SequenceTest.java" sourcepath="SequenceTest.java"/>
+    </Class>
+    <Method classname="SequenceTest" name="testAddEmpty" signature="()V" isStatic="false">
+      <SourceLine classname="SequenceTest" start="89" end="94" startBytecode="0" endBytecode="24" sourcefile="SequenceTest.java" sourcepath="SequenceTest.java"/>
+    </Method>
+    <Type descriptor="Lcomponents/sequence/Sequence;" role="TYPE_FOUND" typeParameters="&lt;java.lang.String&gt;">
+      <SourceLine classname="components.sequence.Sequence"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="134" end="3785" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <LocalVariable name="q" register="1" pc="39" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <String value="green" role="STRING_CONSTANT"/>
+    <Method classname="java.lang.String" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.String" start="1022" end="1031" startBytecode="0" endBytecode="153" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <Method classname="org.junit.Assert" name="assertEquals" signature="(Ljava/lang/Object;Ljava/lang/Object;)V" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="org.junit.Assert" start="146" end="147" startBytecode="0" endBytecode="62" sourcefile="Assert.java" sourcepath="org/junit/Assert.java"/>
+    </Method>
+    <SourceLine classname="SequenceTest" start="93" end="93" startBytecode="40" endBytecode="40" sourcefile="SequenceTest.java" sourcepath="SequenceTest.java"/>
+    <SourceLine classname="SequenceTest" start="93" end="93" startBytecode="40" endBytecode="40" sourcefile="SequenceTest.java" sourcepath="SequenceTest.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_CLASS_AND_INTERFACE" priority="2" rank="6" abbrev="EC" category="CORRECTNESS" first="9" last="9" removedByChange="true">
+    <Class classname="SequenceTest">
+      <SourceLine classname="SequenceTest" sourcefile="SequenceTest.java" sourcepath="SequenceTest.java"/>
+    </Class>
+    <Method classname="SequenceTest" name="testAddEmpty" signature="()V" isStatic="false">
+      <SourceLine classname="SequenceTest" start="89" end="94" startBytecode="0" endBytecode="24" sourcefile="SequenceTest.java" sourcepath="SequenceTest.java"/>
+    </Method>
+    <Type descriptor="Lcomponents/sequence/Sequence;" role="TYPE_FOUND" typeParameters="&lt;java.lang.String&gt;">
+      <SourceLine classname="components.sequence.Sequence"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="134" end="3785" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <LocalVariable name="s" register="1" pc="39" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <String value="green" role="STRING_CONSTANT"/>
+    <Method classname="java.lang.String" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.String" start="1022" end="1031" startBytecode="0" endBytecode="153" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <Method classname="org.junit.Assert" name="assertEquals" signature="(Ljava/lang/Object;Ljava/lang/Object;)V" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="org.junit.Assert" start="146" end="147" startBytecode="0" endBytecode="62" sourcefile="Assert.java" sourcepath="org/junit/Assert.java"/>
+    </Method>
+    <SourceLine classname="SequenceTest" start="93" end="93" startBytecode="40" endBytecode="40" sourcefile="SequenceTest.java" sourcepath="SequenceTest.java"/>
+    <SourceLine classname="SequenceTest" start="93" end="93" startBytecode="40" endBytecode="40" sourcefile="SequenceTest.java" sourcepath="SequenceTest.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 9 Sep 2021 13:12:54 -0400" total_classes="1" referenced_classes="16" total_bugs="0" total_size="59" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="2.44" clock_seconds="1.31" peak_mbytes="555.56" alloc_mbytes="2048.00" gc_seconds="0.06">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="59">
+      <ClassStats class="SequenceTest" sourceFile="SequenceTest.java" interface="false" size="59" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="474" invocations="2" avgMicrosecondsPerInvocation="237319" maxMicrosecondsPerInvocation="447882" standardDeviationMicrosecondsPerInvocation="210562"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="287" invocations="362" avgMicrosecondsPerInvocation="793" maxMicrosecondsPerInvocation="19835" standardDeviationMicrosecondsPerInvocation="1745"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="161" invocations="361" avgMicrosecondsPerInvocation="448" maxMicrosecondsPerInvocation="5945" standardDeviationMicrosecondsPerInvocation="821"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="42" invocations="327" avgMicrosecondsPerInvocation="129" maxMicrosecondsPerInvocation="2391" standardDeviationMicrosecondsPerInvocation="268"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1631049413367" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1631049413371" release="" codeSize="60" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1631050652611" release="" codeSize="65" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1631050804640" release="" codeSize="62" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1631072163469" release="" codeSize="60" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1631072191152" release="" codeSize="67" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1631072369346" release="" codeSize="60" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1631072593879" release="" codeSize="55" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1631072620597" release="" codeSize="60" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1631072692702" release="" codeSize="60" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1631072778754" release="" codeSize="60" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1631072889319" release="" codeSize="59" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1631073004164" release="" codeSize="60" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1631073025819" release="" codeSize="59" numClasses="1"/>
+  </History>
+</BugCollection>

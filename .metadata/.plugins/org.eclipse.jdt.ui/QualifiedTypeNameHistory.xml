@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.lir.LIRInstruction.Temp"/>
+    <fullyQualifiedTypeName name="components.stack.Stack1L"/>
+    <fullyQualifiedTypeName name="components.stack.Stack2"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="components.map.Map1L"/>
+    <fullyQualifiedTypeName name="components.queue.Queue"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.Pair"/>
+    <fullyQualifiedTypeName name="components.naturalnumber.NaturalNumber1L"/>
+    <fullyQualifiedTypeName name="components.binarytree.BinaryTree1"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.Condition"/>
+    <fullyQualifiedTypeName name="components.statement.StatementKernel"/>
+    <fullyQualifiedTypeName name="components.statement.Statement"/>
+    <fullyQualifiedTypeName name="components.map.Map"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="components.program.Program"/>
+    <fullyQualifiedTypeName name="components.set.Set"/>
+    <fullyQualifiedTypeName name="components.set.Set1L"/>
+    <fullyQualifiedTypeName name="components.queue.Queue1L"/>
+    <fullyQualifiedTypeName name="components.map.Map.Pair"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.0" sequence="6" timestamp="1632261845626" analysisTimestamp="1632261844706" release="">
+  <Project projectName="BinaryTreeMethods">
+    <Jar>/Users/abdiace/Desktop/CSE2231 workspace/BinaryTreeMethods/bin/BinaryTreeMethods.class</Jar>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/CSE2231 workspace/BinaryTreeMethods/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/CSE2231 workspace/BinaryTreeMethods/lib/binary-tree-utility.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.1.v20201027-0507/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/BinaryTreeMethods/test</SrcDir>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/BinaryTreeMethods/src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 21 Sep 2021 18:04:04 -0400" total_classes="1" referenced_classes="20" total_bugs="0" total_size="48" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="1.79" clock_seconds="0.92" peak_mbytes="686.79" alloc_mbytes="2048.00" gc_seconds="0.03">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="48">
+      <ClassStats class="BinaryTreeMethods" sourceFile="BinaryTreeMethods.java" interface="false" size="48" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="280" invocations="364" avgMicrosecondsPerInvocation="769" maxMicrosecondsPerInvocation="48415" standardDeviationMicrosecondsPerInvocation="3318"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="278" invocations="2" avgMicrosecondsPerInvocation="139370" maxMicrosecondsPerInvocation="250825" standardDeviationMicrosecondsPerInvocation="111454"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="117" invocations="365" avgMicrosecondsPerInvocation="322" maxMicrosecondsPerInvocation="12411" standardDeviationMicrosecondsPerInvocation="877"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="35" invocations="330" avgMicrosecondsPerInvocation="107" maxMicrosecondsPerInvocation="3927" standardDeviationMicrosecondsPerInvocation="385"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1632260674999" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1632260674999" release="" codeSize="41" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1632260796849" release="" codeSize="36" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1632261245314" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1632261380743" release="" codeSize="36" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1632261403333" release="" codeSize="50" numClasses="1"/>
+  </History>
+</BugCollection>

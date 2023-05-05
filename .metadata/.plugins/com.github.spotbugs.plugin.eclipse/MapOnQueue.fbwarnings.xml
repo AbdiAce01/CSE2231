@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.0" sequence="12" timestamp="1632454509907" analysisTimestamp="1632454508944" release="">
+  <Project projectName="MapOnQueue">
+    <Jar>/Users/abdiace/Desktop/CSE2231 workspace/MapOnQueue/bin/Map2.class</Jar>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/CSE2231 workspace/MapOnQueue/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.1.v20201027-0507/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/MapOnQueue/src</SrcDir>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/MapOnQueue/test</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="3" last="6" removedByChange="true">
+    <Class classname="Map2">
+      <SourceLine classname="Map2" sourcefile="Map2.java" sourcepath="Map2.java"/>
+    </Class>
+    <Method classname="Map2" name="moveToFront" signature="(Lcomponents/queue/Queue;Ljava/lang/Object;)V" isStatic="true">
+      <SourceLine classname="Map2" start="56" end="84" startBytecode="0" endBytecode="68" sourcefile="Map2.java" sourcepath="Map2.java"/>
+    </Method>
+    <LocalVariable name="sub" register="5" pc="74" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Map2" start="62" end="62" startBytecode="72" endBytecode="72" sourcefile="Map2.java" sourcepath="Map2.java"/>
+    <SourceLine classname="Map2" start="62" end="62" startBytecode="72" endBytecode="72" sourcefile="Map2.java" sourcepath="Map2.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="sub"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 23 Sep 2021 23:35:08 -0400" total_classes="1" referenced_classes="29" total_bugs="0" total_size="72" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="2.01" clock_seconds="0.97" peak_mbytes="705.41" alloc_mbytes="2048.00" gc_seconds="0.05">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="72">
+      <ClassStats class="Map2" sourceFile="Map2.java" interface="false" size="72" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="422" invocations="407" avgMicrosecondsPerInvocation="1037" maxMicrosecondsPerInvocation="38346" standardDeviationMicrosecondsPerInvocation="2878"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="129" invocations="2" avgMicrosecondsPerInvocation="64736" maxMicrosecondsPerInvocation="120262" standardDeviationMicrosecondsPerInvocation="55526"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="125" invocations="410" avgMicrosecondsPerInvocation="304" maxMicrosecondsPerInvocation="41652" standardDeviationMicrosecondsPerInvocation="2078"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="27" invocations="29" avgMicrosecondsPerInvocation="965" maxMicrosecondsPerInvocation="5561" standardDeviationMicrosecondsPerInvocation="1658"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="22" invocations="373" avgMicrosecondsPerInvocation="60" maxMicrosecondsPerInvocation="1874" standardDeviationMicrosecondsPerInvocation="151"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1631741743887" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1631741743887" release="" codeSize="86" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1631741748705" release="" codeSize="82" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1631742516890" release="" codeSize="82" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1631742770695" release="" codeSize="86" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1631743345683" release="" codeSize="81" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1631743720235" release="" codeSize="82" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1631743914800" release="" codeSize="82" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1632346806502" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1632346938735" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1632428061294" release="" codeSize="72" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1632428162818" release="" codeSize="72" numClasses="1"/>
+  </History>
+</BugCollection>

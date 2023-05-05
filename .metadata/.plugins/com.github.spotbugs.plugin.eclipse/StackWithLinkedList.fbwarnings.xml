@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.0" sequence="2" timestamp="1636957103015" analysisTimestamp="1636957102392" release="">
+  <Project projectName="StackWithLinkedList">
+    <Jar>/Users/abdiace/Desktop/CSE2231 workspace/StackWithLinkedList/bin/Stack2.class</Jar>
+    <Jar>/Users/abdiace/Desktop/CSE2231 workspace/StackWithLinkedList/bin/Stack2$Stack2Iterator.class</Jar>
+    <Jar>/Users/abdiace/Desktop/CSE2231 workspace/StackWithLinkedList/bin/Stack2$Node.class</Jar>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/CSE2231 workspace/StackWithLinkedList/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.1.v20201027-0507/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/StackWithLinkedList/test</SrcDir>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/StackWithLinkedList/src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 15 Nov 2021 01:18:22 -0500" total_classes="3" referenced_classes="29" total_bugs="0" total_size="115" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="1.14" clock_seconds="0.62" peak_mbytes="847.71" alloc_mbytes="2048.00" gc_seconds="0.03">
+    <PackageStats package="" total_bugs="0" total_types="3" total_size="115">
+      <ClassStats class="Stack2" sourceFile="Stack2.java" interface="false" size="76" bugs="0"/>
+      <ClassStats class="Stack2$Node" sourceFile="Stack2.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="Stack2$Stack2Iterator" sourceFile="Stack2.java" interface="false" size="26" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="170" invocations="401" avgMicrosecondsPerInvocation="426" maxMicrosecondsPerInvocation="11157" standardDeviationMicrosecondsPerInvocation="1006"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="161" invocations="2" avgMicrosecondsPerInvocation="80541" maxMicrosecondsPerInvocation="148173" standardDeviationMicrosecondsPerInvocation="67632"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="76" invocations="404" avgMicrosecondsPerInvocation="189" maxMicrosecondsPerInvocation="7394" standardDeviationMicrosecondsPerInvocation="428"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="33" invocations="29" avgMicrosecondsPerInvocation="1149" maxMicrosecondsPerInvocation="16574" standardDeviationMicrosecondsPerInvocation="3108"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="21" invocations="367" avgMicrosecondsPerInvocation="57" maxMicrosecondsPerInvocation="1095" standardDeviationMicrosecondsPerInvocation="109"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="15" invocations="29" avgMicrosecondsPerInvocation="550" maxMicrosecondsPerInvocation="8194" standardDeviationMicrosecondsPerInvocation="1476"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1636957034049" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1636957034049" release="" codeSize="167" numClasses="4"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.0" sequence="3" timestamp="1635622154598" analysisTimestamp="1635622152058" release="">
+  <Project projectName="SetOnBST">
+    <Jar>/Users/abdiace/Desktop/CSE2231 workspace/SetOnBST/bin/Set3a.class</Jar>
+    <Jar>/Users/abdiace/Desktop/CSE2231 workspace/SetOnBST/bin/SetTest.class</Jar>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/CSE2231 workspace/SetOnBST/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.1.v20201027-0507/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/SetOnBST/src</SrcDir>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/SetOnBST/test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 30 Oct 2021 15:29:11 -0400" total_classes="2" referenced_classes="29" total_bugs="0" total_size="112" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="4.90" clock_seconds="2.56" peak_mbytes="739.54" alloc_mbytes="2048.00" gc_seconds="0.24">
+    <PackageStats package="" total_bugs="0" total_types="2" total_size="112">
+      <ClassStats class="Set3a" sourceFile="Set3a.java" interface="false" size="91" bugs="0"/>
+      <ClassStats class="SetTest" sourceFile="SetTest.java" interface="false" size="21" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="712" invocations="2" avgMicrosecondsPerInvocation="356027" maxMicrosecondsPerInvocation="633197" standardDeviationMicrosecondsPerInvocation="277170"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="477" invocations="408" avgMicrosecondsPerInvocation="1169" maxMicrosecondsPerInvocation="135514" standardDeviationMicrosecondsPerInvocation="7161"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="435" invocations="405" avgMicrosecondsPerInvocation="1074" maxMicrosecondsPerInvocation="126328" standardDeviationMicrosecondsPerInvocation="6962"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="154" invocations="2" avgMicrosecondsPerInvocation="77157" maxMicrosecondsPerInvocation="153811" standardDeviationMicrosecondsPerInvocation="76654"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="102" invocations="29" avgMicrosecondsPerInvocation="3530" maxMicrosecondsPerInvocation="56433" standardDeviationMicrosecondsPerInvocation="10612"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDoubleCheck" totalMilliseconds="65" invocations="2" avgMicrosecondsPerInvocation="32814" maxMicrosecondsPerInvocation="65436" standardDeviationMicrosecondsPerInvocation="32621"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1633642480809" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1633642480809" release="" codeSize="78" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1633642595372" release="" codeSize="88" numClasses="1"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;queueOfTokens&apos; in &apos;Tokenizer.tokens(...)&apos; to &apos;qTokens&apos;&#x0A;- Original project: &apos;Tokenizer&apos;&#x0A;- Original element: &apos;Tokenizer.tokens(SimpleReader).queueOfTokens&apos;&#x0A;- Renamed element: &apos;queueOfTokens&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;queueOfTokens&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Tokenizer.java[Tokenizer~tokens~QSimpleReader;@queueOfTokens!5087!5138!5101!5113!QQueue\&lt;QString;&gt;;!0!false" name="qTokens" references="true" stamp="1639608805916" version="1.0"/>
+</session>

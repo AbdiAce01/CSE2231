@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/SequenceOnStack"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/JCFExplorations.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/BugsWorldVMInterpreter.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/Tokenizer.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/StatementPrettyPrint.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/ListWithTwoSmartNodes.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/StackWithLinkedList.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/ArraySiftDown.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/QueueQuicksort.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/ExpressionEvaluator.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/QueueInsertionSort.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/ProgramPrettyPrint.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/HashingExperiments.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/ListWithRetreat.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/StatementCountPrimitiveCalls.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/SortingMachineWithHeapsort.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/SetOnBST.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/BinarySearchTreeMethods.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/MapWithHashing.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/BinaryTreeMethods.zip"/>
+			<item value="/Users/abdiace/Desktop/CSE2231 workspace/NaturalNumberOnString.zip"/>
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="427"/>
+		<item key="DIALOG_Y_ORIGIN" value="143"/>
+		<item key="DIALOG_WIDTH" value="586"/>
+		<item key="DIALOG_HEIGHT" value="528"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+</section>

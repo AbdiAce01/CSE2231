@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.1" sequence="4" timestamp="1639642778022" analysisTimestamp="1639642775324" release="">
+  <Project projectName="ExpressionEvaluator">
+    <Jar>/Users/abdiace/Desktop/CSE2231 workspace/ExpressionEvaluator/bin/ExpressionEvaluatorTest.class</Jar>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/CSE2231 workspace/ExpressionEvaluator/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/abdiace/Desktop/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.1.v20201027-0507/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/ExpressionEvaluator/test</SrcDir>
+    <SrcDir>/Users/abdiace/Desktop/CSE2231 workspace/ExpressionEvaluator/src</SrcDir>
+  </Project>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="1" last="1" removedByChange="true">
+    <Class classname="ExpressionEvaluator">
+      <SourceLine classname="ExpressionEvaluator" sourcefile="ExpressionEvaluator.java" sourcepath="ExpressionEvaluator.java"/>
+    </Class>
+    <Method classname="ExpressionEvaluator" name="valueOfDigit" signature="(Ljava/lang/StringBuilder;)I" isStatic="true">
+      <SourceLine classname="ExpressionEvaluator" start="40" end="48" startBytecode="0" endBytecode="136" sourcefile="ExpressionEvaluator.java" sourcepath="ExpressionEvaluator.java"/>
+    </Method>
+    <SourceLine classname="ExpressionEvaluator" start="44" end="44" startBytecode="21" endBytecode="21" sourcefile="ExpressionEvaluator.java" sourcepath="ExpressionEvaluator.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 16 Dec 2021 03:19:35 -0500" total_classes="1" referenced_classes="16" total_bugs="0" total_size="34" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="4.57" clock_seconds="2.70" peak_mbytes="1006.71" alloc_mbytes="2048.00" gc_seconds="0.22">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="34">
+      <ClassStats class="ExpressionEvaluatorTest" sourceFile="ExpressionEvaluatorTest.java" interface="false" size="34" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1145" invocations="361" avgMicrosecondsPerInvocation="3173" maxMicrosecondsPerInvocation="90127" standardDeviationMicrosecondsPerInvocation="9125"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="515" invocations="2" avgMicrosecondsPerInvocation="257602" maxMicrosecondsPerInvocation="497728" standardDeviationMicrosecondsPerInvocation="240126"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="337" invocations="362" avgMicrosecondsPerInvocation="931" maxMicrosecondsPerInvocation="159849" standardDeviationMicrosecondsPerInvocation="8542"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="156" invocations="327" avgMicrosecondsPerInvocation="479" maxMicrosecondsPerInvocation="69926" standardDeviationMicrosecondsPerInvocation="4092"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1636232575705" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1636232575705" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1639642375133" release="" codeSize="69" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1639642447930" release="" codeSize="34" numClasses="1"/>
+  </History>
+</BugCollection>
